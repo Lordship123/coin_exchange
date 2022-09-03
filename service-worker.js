@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Lordship123/coin_exchange/precache-manifest.7d336d26d17b3ef0f34e0ef50efb53ae.js"
+  "/coin_exchange/precache-manifest.2a6e60da6637942880fa8303321b0289.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Lordship123/coin_exchange/index.html", {
+workbox.routing.registerNavigationRoute("/coin_exchange/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
